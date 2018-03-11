@@ -1,3 +1,17 @@
 // Place all the styles related to the welcomePage controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap";
+
+.body{
+    background-color:rgb(162, 186, 184) !important;
+}
+
+.mainCont{
+    margin:35px 35px 35px 35px; 
+    background-color:#ffffff;
+}
+
+.subTitle{
+    text-align: center;
+}
