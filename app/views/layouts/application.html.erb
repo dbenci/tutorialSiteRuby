@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>MyPostgresApp</title>
+    <title>Tutorial site</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag "application" %>
 
   </head>
 
   <body class="body">
 
-  <%= image_tag("TokyoCover.jpg", :alt => "tokyo view", :class=> "img-fluid" )%>
+  <%= image_tag("TokyoCover.jpg", :alt => "tokyo view", :class=> "img-fluid mainImg" )%>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Navbar</a>
