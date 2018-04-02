@@ -3,6 +3,12 @@
 # Version of your assets, change this if you want to expire all your assets.
 Rails.application.config.assets.version = '1.0'
 
+Rails.application.config.assets.precompile += %w( segment.js )
+Rails.application.config.assets.precompile += %w( anime.js )
+Rails.application.config.assets.precompile += %w( animationButton.coffee )
+Rails.application.config.assets.precompile += %w( buttonJavasript.js )
+Rails.application.config.assets.precompile += %w( utilities.coffee )
+Rails.application.config.assets.precompile += %w( quiz.coffee )
 # Add additional assets to the asset load path.
 # Rails.application.config.assets.paths << Emoji.images_path
 # Add Yarn node_modules folder to the asset load path.

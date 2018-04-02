@@ -1,0 +1,10 @@
+<h1><%= @title%></h1>
+
+<%= render "utilities/enterButton"%>
+<%= render "utilities/quiz", question:@questionForFrontend %>
+
+<%= javascript_include_tag "segment" %>
+<%= javascript_include_tag "anime"  %>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<%= javascript_include_tag "animationButton"  %>  
+<%= javascript_include_tag "utilities" %>

@@ -1,34 +1,33 @@
-<h1 class="display-4 subTitle" >Display 4</h1>
-<p>Neki testni text</p>
+<h1 class="display-4 subTitle" >Our Selection Of Quizzes</h1>
 <div class="container">
 	<div class="row destacados">
 		<div class="col-md-4">
     		<div>
-				<img src="http://lorempixel.com/200/200/abstract/1/" alt="Texto Alternativo" class="img-circle img-thumbnail">
-				<h2>Diseño Web</h2>
+				<%= image_tag("Hiragana.jpg", :alt => "hiragana and katakana quiz", :class=> "img-circle img-thumbnail" )%>
+				<h2>Hiragana and Katakana</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua.</p>
-				<a href="#" class="btn btn-primary" title="Enlace">Leer más »</a>
+				<a href="/quiz/hiragana" class="btn btn-primary" title="Start">Start »</a>
 			</div>
 		</div>
 
 		<div class="col-md-4">
 			<div>
-				<img src="http://lorempixel.com/200/200/abstract/2/" alt="Texto Alternativo" class="img-circle img-thumbnail">
-				<h2>Desarrollo Web</h2>
+				<%= image_tag("KanjiImage.jpg", :alt => "Kanji quiz", :class=> "img-circle img-thumbnail" )%>
+				<h2>Kanji</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua.</p>
-				<a href="#" class="btn btn-primary" title="Enlace">Leer más »</a>
+				<a href="#" class="btn btn-primary" title="Start">Start »</a>
 			</div>
 		</div>
 
 		<div class="col-md-4">
 			<div>
-				<img src="http://lorempixel.com/200/200/abstract/3/" alt="Texto Alternativo" class="img-circle img-thumbnail">
-				<h2>Alojamiento Web</h2>
+				<%= image_tag("UserQuiz.jpg", :alt => "Grammer quiz", :class=> "img-circle img-thumbnail" )%>
+				<h2>Words and Grammer</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua.</p>
-				<a href="#" class="btn btn-primary" title="Enlace">Leer más »</a>
+				<a href="#" class="btn btn-primary" title="Start">Start »</a>
 			</div>
 		</div>
 	</div>
